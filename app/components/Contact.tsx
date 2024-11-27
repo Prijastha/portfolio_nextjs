@@ -51,9 +51,14 @@ function Contact() {
             placeholder="Message"
             className="contactInput w-full"
           />
-          <button className="dark:bg-white  bg-gray-400 py-4 px-8 rounded-md text-zinc-900 font-bold text-lg hover:bg-orange-700">
-            Submit
-          </button>
+
+          <div className="flex justify-center mt-4">
+            {" "}
+            {/* Container to center the button */}
+            <button className="dark:bg-white bg-gray-400 text-zinc-900 font-semibold border py-3 px-6 rounded-full dark:hover:bg-orange-700 hover:bg-orange-700 transition-colors duration-300 sm:text-sm w-28 text-center">
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     </div>

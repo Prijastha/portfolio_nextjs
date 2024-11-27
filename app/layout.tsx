@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Roboto } from 'next/font/google';
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./theme-provider";
 
 const roboto = Roboto({
-  subsets: ['latin'],
-  weight: ['400','500', '700'],
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
 });
 // const geistMono = localFont({
 //   src: "./fonts/GeistMonoVF.woff",
@@ -14,8 +14,8 @@ const roboto = Roboto({
 // });
 
 export const metadata: Metadata = {
-  title: "Prija's Portfolio",
-  description: "Minimalist frontend developer portfolio",
+  title: "Prija Shrestha",
+  description: "Frontend developer portfolio",
 };
 
 export default function RootLayout({
@@ -25,17 +25,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={roboto.className}
-      >
+      <body className={roboto.className}>
         <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

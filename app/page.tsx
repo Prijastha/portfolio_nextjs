@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 
 export default function Home() {
   return (
-    <main className=" relative dark:bg-black-700 flex justify-center items-center flex-col overflow-y-scroll snap-y snap-mandatory   z-0 mx-auto sm:px-10 px-5 dark:text-white">
+    <main className=" relative dark:bg-black-700 flex justify-center items-center flex-col   overflow-hidden    z-0 mx-auto sm:px-10 px-5 dark:text-white">
       <div className="max-w-7xl w-full">
         {/* Header */}
         <NavBar />

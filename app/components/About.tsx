@@ -21,7 +21,7 @@ const About = () => {
         </p>
         <p className="text-lg sm:text-base dark:text-gray-300 leading-relaxed">
           Feel free to{" "}
-          <a href="/contact" className="text-orange-700 underline">
+          <a href="#contact" className="text-orange-700 underline">
             reach out
           </a>{" "}
           or explore my work!

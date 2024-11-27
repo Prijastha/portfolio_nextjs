@@ -30,7 +30,7 @@ const About = () => {
         {/* Resume Button */}
         <div className="flex justify-center">
           <a
-            href="/public/Prija_Shrestha_CV.pdf"
+            href="Prija_Shrestha_CV.pdf"
             className="dark:bg-white bg-gray-400 text-zinc-900 font-semibold border py-3 px-6 rounded-full dark:hover:bg-orange-700 hover:bg-orange-700  transition-colors duration-300"
           >
             Resume

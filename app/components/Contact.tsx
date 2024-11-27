@@ -20,7 +20,7 @@ function Contact() {
       </h3>
 
       <div className="w-full max-w-3xl space-y-8 mt-20 ">
-        <h4 className="text-2xl font-medium dark:text-gray-300">
+        <h4 className="text-2xl font-medium sm:text-base dark:text-gray-300">
           Let’s work together! Fill out the form and I’ll get back to you.
         </h4>
 

@@ -5,7 +5,7 @@ export const projects = [
     des: "RoomEase is a rent finding system that allows users to search for rooms based on various criteria such as location, rent, and other preferences. ",
     img: "/roomease.png",
     iconLists: ["re.svg", "tail.svg"],
-    link: "#",
+    link: "https://github.com/Prijastha/Roomease",
   },
   {
     id: 2,
